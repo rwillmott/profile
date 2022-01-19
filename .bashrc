@@ -106,6 +106,13 @@ alias ll='ls -l'                              # long list
 alias la='ls -A'                              # all but . and ..
 alias l='ls -CF'                              #
 
+###
+# custom shit by me 
+###
+alias gh="cd /c/Users/AAAAAA/OneDrive/" # goes to onedrive home idk
+
+
+
 # Umask
 #
 # /etc/profile sets 022, removing write perms to group + others.
