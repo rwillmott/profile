@@ -93,13 +93,13 @@ alias du='du -h'
 #
 # Misc :)
 # alias less='less -r'                          # raw control characters
-alias whence='type -a'                        # where, of a sort
+alias whence='type -a'                        # type of all commands
 alias grep='grep --color'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 #
 # Some shortcuts for different directory listings
-alias ls='ls -hF --color=tty'                 # classify files in colour
+alias ls='ls -hF --color=tty'
 alias dir='ls --color=auto --format=vertical'
 alias vdir='ls --color=auto --format=long'
 alias l='ls -l'
