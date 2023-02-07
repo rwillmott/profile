@@ -37,6 +37,9 @@
 # When changing directory small typos can be ignored by bash
 # for example, cd /vr/lgo/apaache would find /var/log/apache
 # shopt -s cdspell
+#
+# custom stuff
+export TERMINFO="/ucrt64/share/terminfo/" 
 
 # Completion options
 #
@@ -107,7 +110,7 @@ alias la='ls -lA'
 #
 # custom stuff
 alias od="cd $(cygpath "$USERPROFILE")/OneDrive/"
-export TERMINFO="/ucrt64/share/terminfo/" 
+alias pacman="echo \"use pacboy and add the :p suffix to packages to avoid having to type out the long package names.\""
 
 # Umask
 #
