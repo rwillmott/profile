@@ -107,7 +107,7 @@ alias la='ls -lA'
 #
 # custom stuff
 alias od="cd $(cygpath "$USERPROFILE")/OneDrive/"
-export TERMINFO="/usr/share/terminfo/" 
+export TERMINFO="/ucrt64/share/terminfo/" 
 
 # Umask
 #
